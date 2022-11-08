@@ -66,14 +66,14 @@ body {
 	padding: 0;
 }
 
-@media print {
-  body { font-size: 10pt }
-}
-@media screen {
-  body { font-size: 13px }
-}
-@media screen, print {
-  body { line-height: 1.2 }
+@media (max-width: 600px) {
+	body {
+	font-size: 1.35em;
+	font-family: 'VT323';
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	}
 }
 
 h1,
