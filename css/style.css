@@ -68,7 +68,7 @@ body {
 
 @media (max-width: 480px) {
 	body {
-	font-size: 2em;
+	font-size: 4em;
 	font-family: 'VT323';
 	height: 100%;
 	margin: 0;
